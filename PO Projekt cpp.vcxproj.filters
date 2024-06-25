@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Organisms">
+      <UniqueIdentifier>{cf6fb191-9884-4dbd-bc31-81e508cb7d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Organisms\Types">
+      <UniqueIdentifier>{99f7c01b-5e07-47b2-86df-8c80c1ca0b75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Organisms\Types\Animals">
+      <UniqueIdentifier>{5a5e049c-ded1-4ea6-9813-0085dfc02063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Organisms\Types\Plants">
+      <UniqueIdentifier>{2b63a89e-0e32-46e1-b6be-9cd6fa68569b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Organisms">
+      <UniqueIdentifier>{3b931a2a-9118-4041-ad36-d42a5aecf33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Organisms\Types">
+      <UniqueIdentifier>{a0268289-a794-4da9-a93a-af81a46c25ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Organisms\Types\Animals">
+      <UniqueIdentifier>{5c8a160c-3690-4b41-8c3b-8536e620cda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Organisms\Types\Plants">
+      <UniqueIdentifier>{647e7de1-4dcb-4023-b93a-f52f4eae8f10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleUtils.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Animal.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="Organism.cpp">
+      <Filter>Pliki źródłowe\Organisms</Filter>
+    </ClCompile>
+    <ClCompile Include="Plant.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Sheep.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Wolf.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="SowThisle.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="Guarana.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="Nightshade.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="SosnowskyHogWeed.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Plants</Filter>
+    </ClCompile>
+    <ClCompile Include="Fox.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Turtle.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Antilope.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Animals</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Pliki źródłowe\Organisms\Types\Animals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="World.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="consoleUtils.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Organism.h">
+      <Filter>Pliki nagłówkowe\Organisms</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="Plant.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Wolf.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Sheep.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Animal.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="SowThisle.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="Guarana.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="Nightshade.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="SosnowskyHogWeed.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Plants</Filter>
+    </ClInclude>
+    <ClInclude Include="Fox.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Turtle.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Antilope.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Animals</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Pliki nagłówkowe\Organisms\Types\Animals</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
